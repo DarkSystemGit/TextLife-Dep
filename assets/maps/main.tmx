@@ -1,24 +1,4549 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="55" height="35" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="23">
+ <editorsettings>
+  <export target="main.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" name="citytiles" tilewidth="16" tileheight="16" tilecount="504" columns="28">
   <image source="../citytiles.png" width="448" height="288"/>
+  <tile id="0">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="12.0716" y="0.207415">
+     <polygon points="0,0 3.65051,0 3.98237,15.7221 -0.041483,15.7221"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="99">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="100">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="106">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="107">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="109">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="110">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="112">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="113">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="114">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="118">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="125">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="126">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="127">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="128">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="130">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="132">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="133">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="134">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="135">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="136">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="137">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="138">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="139">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+   <objectgroup draworder="index" id="3">
+    <object id="2" x="0" y="0.082966">
+     <polygon points="0,0 3.65051,0 3.98237,15.7221 -0.041483,15.7221"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="140">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="141">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="142">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="143">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="144">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="145">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="146">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="147">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="148">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="149">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="150">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="151">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="154">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="155">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="156">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="157">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="158">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="159">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="160">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="161">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="162">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="163">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="164">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="165">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="166">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="167">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="168">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="169">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="170">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="171">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="172">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="173">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="174">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="175">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="176">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="177">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="178">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="179">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="180">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="181">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="182">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="183">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="184">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="185">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="186">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="188">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="189">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="190">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="191">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="192">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="193">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="194">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="195">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="196">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="197">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="198">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="199">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="200">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="201">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="202">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="203">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="204">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="205">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="206">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="207">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="208">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="209">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="210">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="211">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="212">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="213">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="214">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="215">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="216">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="217">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="218">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="219">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="220">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="221">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="222">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="223">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="224">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="225">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="226">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="227">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="228">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="229">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="230">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="231">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="232">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="233">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="234">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="235">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="236">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="237">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="238">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="239">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="240">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="241">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="242">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="243">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="244">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="245">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="246">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="247">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="248">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="249">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="250">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="251">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="252">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="253">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="254">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="255">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="256">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="257">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="258">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="259">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="260">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="261">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="262">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="263">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="264">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="265">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="266">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="267">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="268">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="269">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="270">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="271">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="272">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="273">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="274">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="275">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="276">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="277">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="278">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="279">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="280">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="281">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="282">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="283">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="284">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="285">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="286">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="287">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="288">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="289">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="290">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="291">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="292">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="293">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="294">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="295">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="296">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="297">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="298">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="299">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="300">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="301">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="302">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="303">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="304">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="305">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="306">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="307">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="308">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="309">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="310">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="311">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="312">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="313">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="314">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="315">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="316">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="317">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="318">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="319">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="320">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="321">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="322">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="323">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="324">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="325">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="326">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="327">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="328">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="329">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="330">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="331">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="332">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="333">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="334">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="335">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="336">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="337">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="338">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="339">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="340">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="341">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="342">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="343">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="344">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="345">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="346">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="347">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="348">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="349">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="350">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="351">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="352">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="353">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="354">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="355">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="356">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="357">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="358">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="359">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="360">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="361">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="362">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="363">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+   <objectgroup draworder="index" id="3">
+    <object id="3" x="6.13949" y="8.21364" height="0.041483"/>
+    <object id="4" x="0.124449" y="-0.124449">
+     <polygon points="0,0 15.8465,0.124449 15.805,5.01945 -0.041483,5.10241"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="364">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="365">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="366">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="367">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="368">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="369">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="370">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="371">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="372">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="373">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="374">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="375">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="376">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="377">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="378">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="379">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="380">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="381">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="382">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="383">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="384">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="385">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="386">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="387">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="388">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="389">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="390">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="391">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.124449" y="9.87296">
+     <polygon points="0,0 15.8465,0.152779 15.805,6.16209 -0.041483,6.26393"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="392">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="393">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="394">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="395">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="396">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="397">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="398">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="399">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="400">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="401">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="402">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="403">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="404">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="405">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="406">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="407">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="408">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="409">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="410">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="411">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="412">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="413">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="414">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="415">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="416">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="417">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="418">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="419">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="0.248898" y="0.041483">
+     <polygon points="0,0 15.8465,0.143673 15.805,5.79481 -0.041483,5.89059"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="420">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="421">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="422">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="423">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="424">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="425">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="426">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="427">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="428">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="429">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="430">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="431">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="432">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="433">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="434">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="435">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="436">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="437">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="438">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="439">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="440">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="441">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="442">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="443">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="444">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="445">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="446">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="447">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="448">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="449">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="450">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="451">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="452">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="453">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="454">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="455">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="456">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="457">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="458">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="459">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="460">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="461">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="462">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="463">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="464">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="465">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="466">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="467">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="468">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="469">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="470">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="471">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="472">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="473">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="474">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="475">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="476">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="477">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="478">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="479">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="480">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="481">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="482">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="483">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="484">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="485">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="486">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="487">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="488">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="489">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="490">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="491">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="492">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="493">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="494">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="495">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="496">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="497">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="498">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="499">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="500">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="501">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="502">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="503">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="505" name="schoolassets" tilewidth="16" tileheight="16" tilecount="144" columns="8">
+  <grid orientation="orthogonal" width="8" height="8"/>
   <image source="../schoolassets.png" width="128" height="288"/>
+  <tile id="0">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="10.0804" y="6.92766">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="5.06093" y="7.30101">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="8.42105" y="10.1633">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="8.21364" y="8.50402">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="9.87296" y="7.13508">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="5.06093" y="6.05652">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="8.13067" y="4.6461" height="0.580762">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="8.21364" y="2.57195">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="col" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="99">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="100">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="106">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="107">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="109">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="110">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="112">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="113">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="114">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="118">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="125">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="126">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="127">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="128">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="130">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="132">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="133">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="134">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="135">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="136">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="137">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="138">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="139">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="140">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="141">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="142">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="143">
+   <properties>
+    <property name="col" type="bool" value="false"/>
+   </properties>
+  </tile>
  </tileset>
- <layer id="1" name="Ground" width="50" height="25">
+ <tileset firstgid="649" name="ground" tilewidth="16" tileheight="16" spacing="1" tilecount="1767" columns="57">
+  <image source="../ground.png" width="968" height="526"/>
+ </tileset>
+ <tileset firstgid="2416" name="chars" tilewidth="16" tileheight="16" tilecount="132" columns="12">
+  <image source="../chars.png" width="192" height="176"/>
+  <tile id="0">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="96">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="97">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="98">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="99">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="100">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="101">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="102">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="103">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="105">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="106">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="107">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="109">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="110">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="111">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="112">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="113">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="114">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="115">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="116">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="117">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="118">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="119">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="122">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="125">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="126">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="127">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="128">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="hum" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="130">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="131">
+   <properties>
+    <property name="hum" type="bool" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Ground" width="55" height="35" visible="0">
   <data encoding="base64">
-   cgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAwAEAAMABAADAAQAAwAEAAMABAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAMABAADAAQAAwAEAAMABAADAAQAAwAEAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAwAEAAMABAADAAQAAwAEAAMABAADAAQAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAADKAQAA5gEAAN8BAADmAQAA5gEAAN8BAADKAQAA5gEAAN8BAADmAQAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAMoBAADmAQAA3wEAAMsBAADmAQAA3wEAAMsBAADmAQAA3wEAAOcBAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAygEAAOYBAADfAQAA5gEAAOYBAADfAQAA5gEAAOYBAADfAQAA5gEAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAADKAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAMoBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAAA=
+   BwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAAAgAAAAIAAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAAHQAAAAYAAAAHAAAAHwAAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAB0AAAAiAAAAIwAAAB8AAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAAOgAAADoAAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAAcFAAAHBQAABwUAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAABwUAAAcFAAAHBQAABwUAAAcFAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAAcFAAAHBQAABwUAAAcFAAAHBQAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAAHBQAABwUAAAcFAAAHBQAABwUAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAABwUAAAcFAAAHBQAABwUAAAcFAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAAcFAAAHBQAABwUAAAcFAAAHBQAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAAHBQAABwUAAAcFAAAHBQAABwUAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAABwUAAAcFAAAHBQAABwUAAAcFAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAAcFAAAHBQAABwUAAAcFAAAHBQAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAAHBQAABwUAAAcFAAAHBQAABwUAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAABwUAAAcFAAAHBQAABwUAAAcFAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAAcFAAAHBQAABwUAAAcFAAAHBQAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAAHBQAABwUAAAcFAAAHBQAABwUAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAwAEAAMABAADAAQAAwAEAAMABAADAAQAABwUAAAcFAAAHBQAABwUAAAcFAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAMABAADAAQAAwAEAAMABAADAAQAAwAEAAAcFAAAHBQAABwUAAAcFAAAHBQAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAADAAQAAwAEAAMABAADAAQAAwAEAAMABAAAHBQAABwUAAAcFAAAHBQAABwUAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAABwUAAAcFAAAHBQAABwUAAAcFAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAAcFAAAHBQAABwUAAAcFAAAHBQAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAAHBQAABwUAAAcFAAAHBQAABwUAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAB6AAAAegAAAHoAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAABwUAAAcFAAAHBQAABwUAAAcFAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAAcFAAAHBQAABwUAAAcFAAAHBQAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAMoBAADmAQAA3wEAAOYBAADmAQAA3wEAAMoBAADmAQAA3wEAAOYBAAAHBQAABwUAAAcFAAAHBQAABwUAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAADKAQAA5gEAAN8BAADLAQAA5gEAAN8BAADLAQAA5gEAAN8BAADnAQAABwUAAAcFAAAHBQAABwUAAAcFAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAygEAAOYBAADfAQAA5gEAAOYBAADfAQAA5gEAAOYBAADfAQAA5gEAAAcFAAAHBQAABwUAAAcFAAAHBQAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAMoBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAAAHBQAABwUAAAcFAAAHBQAABwUAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAAByAAAAcgAAAHIAAADKAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAACYAAAAnAAAAygEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAEEAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQgAAAEIAAABCAAAAQwAAAMMBAADEAQAAxAEAAMQBAADEAQAAxAEAAMQBAADEAQAAxAEAAMUBAADmAQAA5gEAAOYBAAClAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAMoBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAKUBAADKAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAAwQEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADKAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADBAQAAygEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAN0BAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAAygEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA3QEAAMoBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAADmAQAA5gEAAOYBAAA=
   </data>
  </layer>
- <layer id="3" name="Objects" width="50" height="25">
+ <layer id="7" name="cleanup" width="55" height="35" visible="0">
   <data encoding="base64">
-   8gAAABkCAAAZAgAAGQIAABkCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAgAAGQIAABkCAAAZAgAA8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqAQAAAAAAAAAAAABwAQAAAAAAAFQBAAAAAAAAcAEAAAAAAABUAQAA/gEAAAAAAAAaAgAAGgIAABoCAAAaAgAAAAAAAAAAAAAAAAAAAAAAACwCAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAAAAAAAAbAgAAAAAAAAAAAAAAAAAAGgIAABoCAAAaAgAAGgIAAAAAAAAAAAAAAAAAAHABAAAAAAAAVAEAAAAAAABwAQAAAAAAAFQBAAAGAgAAAAAAABkCAAAZAgAAGQIAABkCAAAAAAAAAAAAAAAAAAAAAAAALAIAAAAAAADyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8gAAAAAAAAAAAAAA8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPIAAAAAAAAAAAAAABsCAAAAAAAAAAAAAAAAAAAZAgAAGQIAABkCAAAZAgAAAAAAAAAAAAAAAAAAcAEAAAAAAABUAQAAAAAAAHABAAAAAAAAVAEAAAYCAADyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqAQAAAAAAAAAAAAAqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADyAAAAAAAAAAAAAABwAQAAAAAAAFQBAAAAAAAAcAEAAAAAAABUAQAADgIAACoBAAAaAgAAGgIAABoCAAAaAgAAAAAAAAAAAAAAAAAAAAAAACcBAAAnAQAAAAAAAAAAAAAaAgAAAAAAAAAAAAAaAgAAAAAAAAAAAAAnAQAAJwEAAAAAAAAAAAAAGgIAAAAAAAAAAAAAGgIAAAAAAAAAAAAAJwEAACcBAAAAAAAAAAAAAAAAAAAAAAAAGgIAABoCAAAaAgAAGgIAACoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHABAAAAAAAAVAEAAAAAAABwAQAA8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJwEAACcBAADyAAAAAAAAABkCAAAAAAAAAAAAABkCAAAAAAAA8gAAACcBAAAnAQAA8gAAAAAAAAAZAgAAAAAAAAAAAAAZAgAAAAAAAPIAAAAnAQAAJwEAAAAAAAAAAAAAAAAAAAAAAAAZAgAAGQIAABkCAAAZAgAA8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAEAAAAAAABUAQAAAAAAAHABAAAqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqAQAAAAAAAAAAAAAqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAQAAAAAAAFQBAAAAAAAAcAEAAAAAAAAaAgAAGgIAABoCAAAaAgAAAAAAAAAAAAAAAAAAHAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbAgAAAAAAAAAAAAAAAAAAGQIAABkCAAAZAgAAGQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHABAAAAAAAAVAEAAAAAAABwAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADyAAAAGgIAABoCAAAaAgAAGgIAAAAAAAAAAAAAAAAAABwCAAAAAAAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAAAAAAGwIAAAAAAAAAAAAAAAAAABkCAAAZAgAAGQIAABkCAADyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoCAAAaAgAAGgIAABoCAAAAAAAAAAAAAAAAAAAAAAAAJwEAACcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACcBAAAnAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnAQAAJwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAAAAAACsAQAArQEAAAAAAAAAAAAAAAAAAPIAAADyAAAAGQIAABkCAAAZAgAAGQIAAAAAAAAAAAAAAAAAAAAAAAAnAQAAJwEAAPIAAAAAAAAAGQIAAAAAAAAAAAAAGQIAAAAAAADyAAAAJwEAACcBAADyAAAAAAAAABkCAAAAAAAAAAAAABkCAAAAAAAA8gAAACcBAAAnAQAAAAAAAAAAAAAAAAAAAAAAABkCAAAZAgAAGQIAABkCAADyAAAAKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAACoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoBAAAAAAAAAAAAACoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoBAAAAAAAAAAAAAKwAAAAAAAAAAAAAAKwAAAAAAAAAAAAAAKsAAAAAAAAAAAAAABoCAAAaAgAAGgIAABoCAAAAAAAAAAAAAAAAAAAsAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsCAAAAAAAAAAAAAAAAAAAaAgAAGgIAABoCAAAaAgAAAAAAAJ4BAACaAQAAyAAAAJoBAADSAQAAyAAAANIBAACeAQAAxwAAAAAAAAAAAAAAGQIAABkCAAAZAgAAGQIAAAAAAAAAAAAAAAAAACwCAAAAAAAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAAAAAAGwIAAAAAAAAAAAAAAAAAABkCAAAZAgAAGQIAABkCAAAAAAAAugEAALYBAAAAAAAAtgEAAO4BAAAAAAAA7gEAALoBAAAAAAAAAAAAAPIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAABoCAAAaAgAAGgIAABoCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAgAAGgIAABoCAAAaAgAAKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5AAAAAAAAAAAAAAA7AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
   </data>
  </layer>
- <layer id="2" name="Collision" width="50" height="25">
+ <layer id="3" name="Objects" width="55" height="35" visible="0">
   <data encoding="base64">
-   cAAAAGwBAABsAQAAbAEAAGwBAABsAQAAbAEAAGwBAABsAQAAHAAAAHAAAABsAQAAbAEAAGwBAABsAQAAbAEAAGwBAABsAQAAbAEAABwAAABwAAAAbAEAAGwBAABsAQAAbAEAAGwBAABsAQAAbAEAAGwBAAAcAAAAcAAAAIgBAMCIAQDAiAEAwIgBAMCIAQDAiAEAwIgBAMCIAQDAHAAAAGwBAABsAQAAbAEAAGwBAABsAQAAbAEAAGwBAABsAQAAbAEAABwAAACMAAAA+QEAAAICAAACAgAA+wEAAAAAAAAAAAAAAAAAAP8BAAA4AAAAjAAAAP4BAAAAAAAAAAAAAP4BAAD+AQAAAAAAAAAAAAD+AQAAOAAAAIwAAAD+AQAAAAAAAAAAAAD+AQAA/gEAAAAAAAAAAAAA/gEAADgAAACMAAAAAAAAAP8BAAAAAAAAAAAAAPkBAAACAgAAAgIAAPsBAAA4AAAAVAEAAP4BAAAAAAAA/gEAAAAAAAD+AQAAAAAAAP4BAAAAAAAAOAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgIAADgAAACMAAAADgIAAAAAAAAAAAAADgIAAA4CAAAAAAAAAAAAAA4CAAA4AAAAjAAAAA4CAAAAAAAAAAAAAA4CAAAOAgAAAAAAAAAAAAAOAgAAOAAAAIwAAAAAAAAABgIAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAABUAQAABgIAAAAAAAAGAgAAAAAAAAYCAAAAAAAABgIAAAAAAAA4AAAAjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAgAAOAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAAGAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAFQBAAAGAgAAAAAAAAYCAAAAAAAABgIAAAAAAAAGAgAAAAAAADgAAACMAAAA+QEAAAICAAACAgAA+wEAAAAAAAAAAAAAAAAAAAcCAAA4AAAAjAAAAAAAAAAEAgAAAgIAAAICAAACAgAAAgIAAAUCAAAAAAAAOAAAAIwAAAAAAAAABAIAAAICAAACAgAAAgIAAAICAAAFAgAAAAAAADgAAACMAAAAAAAAAP8BAMAAAAAAAAAAAPkBAAACAgAAAgIAAPsBAAA4AAAAVAEAAA4CAAAAAAAADgIAAAAAAAAOAgAAAAAAAA4CAAAAAAAAOAAAAKgAAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAAAAAAAAAAAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAAAAAAAAAAAAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAAAAAAAAAAACkAQDApAEAwKQBAMCkAQDApAEAwKQBAMCkAQDApAEAwFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUAQAA/gEAAAAAAAD+AQAAAAAAAP4BAAA4AAAAcAAAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAKQBAACkAQAAAAAAAAAAAACkAQAApAEAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAAAAAAAAAAAApAEAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAKQBAAAAAAAAAAAAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAKQBAACkAQAAHAAAAAAAAAAAAAAAAAAAAFQBAAAGAgAAAAAAAAYCAAAAAAAABgIAADgAAACMAAAA+QEAAPoBAAD6AQAA+wEAAAAAAAAAAAAA/wEAAAAAAAA4AAAAjAAAAAAAAAD8AQAA+gEAAPoBAAD6AQAA+gEAAP0BAAAAAAAAOAAAAIwAAAAAAAAA/AEAAPoBAAD6AQAA+gEAAPoBAAD9AQAAAAAAADgAAACMAAAAAAAAAP8BAAAAAAAAAAAAAPkBAAD6AQAA+gEAAPsBAAA4AAAAAAAAAAAAAAAAAAAAVAEAAAYCAAAAAAAABgIAAAAAAAAGAgAAOAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAgAAAAAAADgAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAIwAAAAAAAAABgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAAAAAABUAQAADgIAAAAAAAAOAgAAAAAAAA4CAAA4AAAAjAAAAPkBAAD6AQAA+gEAAPsBAAAAAAAAAAAAAAYCAAAAAAAAOAAAAIwAAAD+AQAAAAAAAAAAAAD+AQAA/gEAAAAAAAAAAAAA/gEAADgAAACMAAAA/gEAAAAAAAAAAAAA/gEAAP4BAAAAAAAAAAAAAP4BAAA4AAAAjAAAAAAAAAAGAgAAAAAAAAAAAAD5AQAA+gEAAPoBAAD7AQAAOAAAAAAAAAAAAAAAAAAAAGAAAACZAAAAmQAAAJkAAACZAAAAmQAAAJkAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgIAAAAAAAA4AAAAjAAAAAYCAAAAAAAAAAAAAAYCAAAGAgAAAAAAAAAAAAAGAgAAOAAAAIwAAAAGAgAAAAAAAAAAAAAGAgAABgIAAAAAAAAAAAAABgIAADgAAACMAAAAAAAAAAYCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAIwAAAD5AQAA+gEAAPoBAAD7AQAAAAAAAAAAAAAHAgAAAAAAADgAAACMAAAADgIAAAAAAAAAAAAADgIAAA4CAAAAAAAAAAAAAA4CAAA4AAAAjAAAAA4CAAAAAAAAAAAAAA4CAAAOAgAAAAAAAAAAAAAOAgAAOAAAAIwAAAAAAAAABwIAAAAAAAAAAAAA+QEAAPoBAAD6AQAA+wEAADgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAqAAAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAAAAAAAAAAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAAAAAAAAAAAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAAAAAAAAAAAAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAVAAAAAAAAAAAAAAAAAAAAHwAAACZAAAAmQAAAJkAAACZAAAAmQAAAAAAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAABwAAAApAEAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAKQBAAAAAAAAAAAAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAKQBAACkAQAAAAAAAAAAAACkAQAApAEAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAAAAAAAAAAAAiAEAwIgBAMCIAQDAiAEAwIgBAMCIAQDAiAEAwIgBAMAcAAAAAAAAAKQBAACkAQAApAEAAAAAAAAAAAAApAEAAKQBAACkAQAAAAAAAIwAAAD5AQAAAgIAAAICAAD7AQAAAAAAAAAAAAD/AQAAAAAAADgAAACMAAAAAAAAAPwBAAD6AQAA+gEAAPoBAAD6AQAA/QEAAAAAAAA4AAAAjAAAAAAAAAD8AQAA+gEAAPoBAAD6AQAA+gEAAP0BAAAAAAAAOAAAAIwAAAAAAAAA/wEAAAAAAAAAAAAA+QEAAAICAAACAgAA+wEAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYCAAAAAAAAOAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAAGAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgIAAAAAAAA4AAAAjAAAAP4BAAAAAAAAAAAAAP4BAAD+AQAAAAAAAAAAAAD+AQAAOAAAAIwAAAD+AQAAAAAAAAAAAAD+AQAA/gEAAAAAAAAAAAAA/gEAADgAAACMAAAAAAAAAAYCAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIwAAAD5AQAAAgIAAAICAAD7AQAAAAAAAAAAAAAHAgAAAAAAADgAAACMAAAADgIAAAAAAAAAAAAADgIAAA4CAAAAAAAAAAAAAA4CAAA4AAAAjAAAAA4CAAAAAAAAAAAAAA4CAAAOAgAAAAAAAAAAAAAOAgAAOAAAAIwAAAAAAAAA/wEAwAAAAAAAAAAA+QEAAAICAAACAgAA+wEAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqAAAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAVAAAAKgAAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAFQAAACoAAAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAABUAAAAqAAAAKQBAMCkAQDApAEAwKQBAMCkAQDApAEAwKQBAMCkAQDAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIwBAACMAQAAjAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIwBAACMAQAAjAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjAEAAIwBAACMAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVAEAAAAAAAAAAAAA3wQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFQBAAAAAAAAAAAAAAAAAAAAAAAApgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPIAAAAZAgAAGQIAABkCAAAZAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQIAABkCAAAZAgAAGQIAAPIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAQAAAAAAAAAAAAAqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqAQAAAAAAAAAAAABwAQAAAAAAAFQBAAAAAAAAcAEAAAAAAABUAQAA/gEAAAAAAAAAAAAAcAEAAAAAAAAAAAAAAAAAABoCAAAaAgAAGgIAABoCAAAAAAAAAAAAAAAAAAAAAAAALAIAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAAAAAABsCAAAAAAAAAAAAAAAAAAAaAgAAGgIAABoCAAAaAgAAAAAAAAAAAAAAAAAAcAEAAAAAAABUAQAAAAAAAHABAAAAAAAAVAEAAAYCAAAAAAAAAAAAAHABAAAAAAAAAAAAAAAAAAAZAgAAGQIAABkCAAAZAgAAAAAAAAAAAAAAAAAAAAAAACwCAAAAAAAA8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADyAAAAAAAAAAAAAAAbAgAAAAAAAAAAAAAAAAAAGQIAABkCAAAZAgAAGQIAAAAAAAAAAAAAAAAAAHABAAAAAAAAVAEAAAAAAABwAQAAAAAAAFQBAAAGAgAAAAAAAAAAAAAAAAAAAAAAAAAAAADyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcCAAA4AAAAjAAAACoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqAQAAOAAAAIwAAAAqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAADgAAACMAAAAAAAAAAcCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADyAAAAAAAAAAAAAABwAQAAAAAAAFQBAAAAAAAAcAEAAAAAAABUAQAADgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAABoCAAAaAgAAGgIAABoCAAAAAAAAAAAAAAAAAAAAAAAAJwEAACcBAAAAAAAAAAAAABoCAAAAAAAAAAAAABoCAAAAAAAAAAAAACcBAAAnAQAAAAAAAAAAAAAaAgAAAAAAAAAAAAAaAgAAAAAAAAAAAAAnAQAAJwEAAAAAAAAAAAAAAAAAAAAAAAAaAgAAGgIAABoCAAAaAgAAKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAEAAAAAAABUAQAAAAAAAHABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACcBAAAnAQAA8gAAAAAAAAAZAgAAAAAAAAAAAAAZAgAAAAAAAPIAAAAnAQAAJwEAAPIAAAAAAAAAGQIAAAAAAAAAAAAAGQIAAAAAAADyAAAAJwEAACcBAAAAAAAAAAAAAAAAAAAAAAAAGQIAABkCAAAZAgAAGQIAAPIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHABAAAAAAAAVAEAAAAAAABwAQAAAAAAAAAAAABwAQAAAAAAAAAAAAAqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wEAAAAAAAA4AAAAjAAAACoBAAD8AQAAAAAAAAAAAAAAAAAAAAAAAP0BAAAqAQAAOAAAAIwAAAAqAQAA/AEAAAAAAAAAAAAAAAAAAAAAAAD9AQAAKgEAADgAAACMAAAAAAAAAP8BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAQAAAAAAAFQBAAAAAAAAcAEAAAAAAAAAAAAAcAEAAAAAAAAAAAAAAAAAABoCAAAaAgAAGgIAABoCAAAAAAAAAAAAAAAAAAAcAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsCAAAAAAAAAAAAAAAAAAAZAgAAGQIAABkCAAAZAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAEAAAAAAABUAQAAAAAAAHABAAAAAAAAAAAAAHABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADyAAAAGgIAABoCAAAaAgAAGgIAAAAAAAAAAAAAAAAAABwCAAAAAAAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAAAAAAGwIAAAAAAAAAAAAAAAAAABkCAAAZAgAAGQIAABkCAADyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcCAAAAAAAAOAAAAIwAAAAOAgAAHAIAABsCAAAOAgAADgIAABwCAAAbAgAADgIAADgAAACMAAAADgIAABwCAAAbAgAADgIAAA4CAAAcAgAAGwIAAA4CAAA4AAAAjAAAAAAAAAAHAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAgAAGgIAABoCAAAaAgAAAAAAAAAAAAAAAAAAAAAAACcBAAAnAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnAQAAJwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJwEAACcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADyAAAAAAAAAAAAAAAAAAAArAEAAK0BAAAAAAAAAAAAAAAAAADyAAAAAAAAAAAAAABwAQAAAAAAAAAAAADyAAAAGQIAABkCAAAZAgAAGQIAAAAAAAAAAAAAAAAAAAAAAAAnAQAAJwEAAPIAAAAAAAAAGQIAAAAAAAAAAAAAGQIAAAAAAADyAAAAJwEAACcBAADyAAAAAAAAABkCAAAAAAAAAAAAABkCAAAAAAAA8gAAACcBAAAnAQAAAAAAAAAAAAAAAAAAAAAAABkCAAAZAgAAGQIAABkCAADyAAAAKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAAAAAAAAAAAAAcAEAAAAAAAAAAAAAKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8BAAAAAAAAOAAAAIwAAAAqAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAADgAAACMAAAAKgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoBAAA4AAAAjAAAAAAAAAD/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgEAAAAAAAAAAAAArAAAAAAAAAAAAAAArAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAAAAHABAAAAAAAAAAAAAAAAAAAaAgAAGgIAABoCAAAaAgAAAAAAAAAAAAAAAAAALAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAbAgAAAAAAAAAAAAAAAAAAGgIAABoCAAAaAgAAGgIAAAAAAACeAQAAmgEAAMgAAACaAQAA0gEAAMgAAADSAQAAngEAAMcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQIAABkCAAAZAgAAGQIAAAAAAAAAAAAAAAAAACwCAAAAAAAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAAAAAAGwIAAAAAAAAAAAAAAAAAABkCAAAZAgAAGQIAABkCAAAAAAAAugEAALYBAAAAAAAAtgEAAO4BAAAAAAAA7gEAALoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAIAABsCAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAAAAAAAAAAABwCAAAbAgAAAAAAAAAAAAAcAgAAGwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACoBAAAaAgAAGgIAABoCAAAaAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgIAABoCAAAaAgAAGgIAACoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAACrAQAAAAAAAAAAAACwAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAAAAAAALAAAAAAAAAAAAAAAAAAAACwAAAAAAAAAKsBAAAAAAAAsAAAAAAAAAAAAAAAAAAAALAAAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAAAAAAALAAAAAAAAAAAAAAAAAAAACwAAAAAAAAAKsBAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAAAAxwAAAAAAAAAAAAAAzAAAAAAAAAAAAAAAAAAAAMwAAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAAAAAAAzAAAAAAAAADHAAAAAAAAAMwAAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAAAAAAAAAAAAMwAAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAAAAAAAzAAAAAAAAADHAAAAzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3QEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
   </data>
  </layer>
+ <layer id="2" name="Collision" width="55" height="35" visible="0">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAABsAQAAbAEAAGwBAABsAQAAbAEAAGwBAABsAQAAbAEAABwAAABwAAAAbAEAAGwBAABsAQAAbAEAAGwBAABsAQAAbAEAAGwBAAAcAAAAcAAAAGwBAABsAQAAbAEAAGwBAABsAQAAbAEAAGwBAABsAQAAHAAAAHAAAACIAQDAiAEAwIgBAMCIAQDAiAEAwIgBAMCIAQDAiAEAwBwAAABsAQAAbAEAAGwBAABsAQAAbAEAAGwBAABsAQAAbAEAAGwBAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMAAAA+QEAAAICAAACAgAA+wEAAAAAAAAAAAAAAAAAAP8BAAA4AAAAjAAAAP4BAAAAAAAAAAAAAP4BAAD+AQAAAAAAAAAAAAD+AQAAOAAAAIwAAAD+AQAAAAAAAAAAAAD+AQAA/gEAAAAAAAAAAAAA/gEAADgAAACMAAAAAAAAAP8BAAAAAAAAAAAAAPkBAAACAgAAAgIAAPsBAAA4AAAAVAEAAP4BAAAAAAAA/gEAAAAAAAD+AQAAAAAAAP4BAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAgAAOAAAAIwAAAAOAgAAAAAAAAAAAAAOAgAADgIAAAAAAAAAAAAADgIAADgAAACMAAAADgIAAAAAAAAAAAAADgIAAA4CAAAAAAAAAAAAAA4CAAA4AAAAjAAAAAAAAAAGAgDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAFQBAAAGAgAAAAAAAAYCAAAAAAAABgIAAAAAAAAGAgAAAAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgIAADgAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAIwAAAAAAAAABgIAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAABUAQAABgIAAAAAAAAGAgAAAAAAAAYCAAAAAAAABgIAAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMAAAA+QEAAAICAAACAgAA+wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAgIAAAICAAACAgAAAgIAAAUCAAAAAAAAAAAAAAAAAAAAAAAABAIAAAICAAACAgAAAgIAAAICAAAFAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPkBAAACAgAAAgIAAPsBAAA4AAAAVAEAAA4CAAAAAAAADgIAAAAAAAAOAgAAAAAAAA4CAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqAAAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAAAAAAAAAAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAAAAAAAAAAAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAAAAAAAAAAAAAKQBAMCkAQDApAEAwKQBAMCkAQDApAEAwKQBAMCkAQDAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFQBAAD+AQAAAAAAAP4BAAAAAAAA/gEAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAACkAQAApAEAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAAAAAAAAAAAApAEAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAKQBAAAAAAAAAAAAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAKQBAACkAQAAAAAAAAAAAACkAQAApAEAAKQBAACkAQAApAEAAKQBAACkAQAApAEAABwAAAAAAAAAAAAAAAAAAABUAQAABgIAAAAAAAAGAgAAAAAAAAYCAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMAAAA+QEAAPoBAAD6AQAA+wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+gEAAPoBAAD6AQAA+gEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPoBAAD6AQAA+gEAAPoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPkBAAD6AQAA+gEAAPsBAAA4AAAAAAAAAAAAAAAAAAAAVAEAAAYCAAAAAAAABgIAAAAAAAAGAgAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYCAAAAAAAAOAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAAGAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAFQBAAAOAgAAAAAAAA4CAAAAAAAADgIAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIwAAAD5AQAA+gEAAPoBAAD7AQAAAAAAAAAAAAAGAgAAAAAAADgAAACMAAAA/gEAAAAAAAAAAAAA/gEAAP4BAAAAAAAAAAAAAP4BAAA4AAAAjAAAAP4BAAAAAAAAAAAAAP4BAAD+AQAAAAAAAAAAAAD+AQAAOAAAAIwAAAAAAAAABgIAAAAAAAAAAAAA+QEAAPoBAAD6AQAA+wEAADgAAAAAAAAAAAAAAAAAAABgAAAAmQAAAJkAAACZAAAAmQAAAJkAAACZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgIAAAAAAAA4AAAAjAAAAAYCAAAAAAAAAAAAAAYCAAAGAgAAAAAAAAAAAAAGAgAAOAAAAIwAAAAGAgAAAAAAAAAAAAAGAgAABgIAAAAAAAAAAAAABgIAADgAAACMAAAAAAAAAAYCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAPkBAAD6AQAA+gEAAPsBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD5AQAA+gEAAPoBAAD7AQAAOAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKgAAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAAAAAAAAAAAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAAAAAAAAAAAAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAAAAAAAAAAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAFQAAAAAAAAAAAAAAAAAAAB8AAAAmQAAAJkAAACZAAAAmQAAAJkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAApAEAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAKQBAAAAAAAAAAAAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAKQBAACkAQAAAAAAAAAAAACkAQAApAEAAKQBAACkAQAApAEAAKQBAACkAQAApAEAAAAAAAAAAAAAiAEAwIgBAMCIAQDAiAEAwIgBAMCIAQDAiAEAwIgBAMAcAAAAAAAAAKQBAACkAQAApAEAAAAAAAAAAAAApAEAAKQBAACkAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAPkBAAACAgAAAgIAAPsBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/AEAAPoBAAD6AQAA+gEAAPoBAAD9AQAAAAAAAAAAAAAAAAAAAAAAAPwBAAD6AQAA+gEAAPoBAAD6AQAA/QEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD5AQAAAgIAAAICAAD7AQAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAgAAAAAAADgAAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAIwAAAAAAAAABgIAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSBAAAAAAAANIEAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgIAAAAAAAA4AAAAjAAAAP4BAAAAAAAAAAAAAP4BAAD+AQAAAAAAAAAAAAD+AQAAOAAAAIwAAAD+AQAAAAAAAAAAAAD+AQAA/gEAAAAAAAAAAAAA/gEAADgAAACMAAAAAAAAAAYCAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwUAAAAAAAALBQAAjAAAAPkBAAACAgAAAgIAAPsBAAAAAAAAAAAAAAcCAAAAAAAAOAAAAIwAAAAOAgAAAAAAAAAAAAAOAgAADgIAAAAAAAAAAAAADgIAADgAAACMAAAADgIAAAAAAAAAAAAADgIAAA4CAAAAAAAAAAAAAA4CAAA4AAAAjAAAAAAAAAD/AQDAAAAAAAAAAAD5AQAAAgIAAAICAAD7AQAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADWBAAA1wQAANcEAADXBAAA2AQAAKgAAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAFQAAACoAAAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAABUAAAAqAAAAIgBAACIAQAAiAEAAIgBAACIAQAAiAEAAIgBAACIAQAAVAAAAKgAAACkAQDApAEAwKQBAMCkAQDApAEAwKQBAMCkAQDApAEAwFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <layer id="8" name="cleanup2" width="55" height="35">
+  <data encoding="base64">
+   0gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABpAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAANIEAAAAAAAAAAAAAAAAAADSBAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAANIEAAAAAAAAAAAAAAAAAADSBAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAANIEAAAAAAAAAAAAAAAAAADSBAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAANIEAAAAAAAAAAAAAAAAAADSBAAAAAAAAAAAAAAAAAAA0gQAAAsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAALBQAAAAAAAAAAAAAAAAAACwUAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAALBQAAAAAAAAAAAAAAAAAACwUAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAALBQAAAAAAAAAAAAAAAAAACwUAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAALBQAAAAAAAAAAAAAAAAAACwUAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAJAAAAAAAA0gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADFCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAAAAAAAA3AEAANwBAAAAAAAA3AEAANwBAAAAAAAA3AEAANwBAAAAAAAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AQAA+AEAAAAAAAD4AQAA+AEAAAAAAAD4AQAA+AEAAAAAAAAAAAAA+AEAAPgBAAAAAAAA+AEAAPgBAAAAAAAA+AEAAPgBAAAAAAAAAAAAAPgBAAD4AQAAAAAAAPgBAAD4AQAAAAAAAPgBAAD4AQAAAAAAAAAAAAD4AQAA+AEAAAAAAAD4AQAA+AEAAAAAAAD4AQAA+AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAAAAAAAA3AEAANwBAAAAAAAA3AEAANwBAAAAAAAA3AEAANwBAAAAAAAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADICQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAAAAAAAA3AEAANwBAAAAAAAA3AEAANwBAAAAAAAA3AEAANwBAAAAAAAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+AEAAPgBAAAAAAAA+AEAAPgBAAAAAAAA+AEAAPgBAAAAAAAAAAAAAPgBAAD4AQAAAAAAAPgBAAD4AQAAAAAAAPgBAAD4AQAAAAAAAAAAAAD4AQAA+AEAAAAAAAD4AQAA+AEAAAAAAAD4AQAA+AEAAAAAAAAAAAAA+AEAAPgBAAAAAAAA+AEAAPgBAAAAAAAA+AEAAPgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAAAAAAAA3AEAANwBAAAAAAAA3AEAANwBAAAAAAAA3AEAANwBAAAAAAAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAANwBAADcAQAAAAAAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAADcAQAA3AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsFAAAXAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0wkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  </data>
+ </layer>
+ <objectgroup id="6" name="data">
+  <object id="1" name="Spawn Point" x="800" y="354">
+   <point/>
+  </object>
+  <object id="5" name="h1" x="87" y="181" width="631" height="43">
+   <properties>
+    <property name="hide" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" x="171" y="-112"/>
+  <object id="7" name="h2" x="84" y="341" width="630" height="46">
+   <properties>
+    <property name="hide" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" name="h3" x="13" y="11" width="57" height="463">
+   <properties>
+    <property name="hide" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" x="284" y="-78" height="1"/>
+  <object id="11" x="93" y="10" width="727" height="67"/>
+  <object id="14" name="h5" x="733" y="234" width="92" height="114">
+   <properties>
+    <property name="hide" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="15" name="h" x="264" y="25"/>
+  <object id="17" name="h" x="632" y="27"/>
+  <object id="18" name="h" x="183" y="103"/>
+  <object id="19" name="h" x="441" y="236"/>
+  <object id="20" name="h" x="525" y="452"/>
+  <object id="21" name="h" x="854" y="90"/>
+  <object id="22" name="h" x="25" y="454"/>
+ </objectgroup>
 </map>

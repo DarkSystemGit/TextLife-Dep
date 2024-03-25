@@ -4,13 +4,17 @@
     "description": "TextLife game",
     "main": "index.js",
     "scripts": {
-        "start": "http-server -p 4042 -c-1 "
+        "start": "http-server -p 4043 -c-1 ",
+        "build": ""
     },
     "author": "darksystem",
     "license": "GPL-3.0-or-later",
     "dependencies": {
+        "browserify": "^17.0.0",
         "http-server": "^14.1.1",
+        "mrpas": "^2.0.0",
         "nodemon": "^3.1.0",
-        "phaser": "^3.80.1"
+        "phaser": "^3.80.1",
+        "phaser-ui-tools": "^2.0.0-beta"
     }
 }

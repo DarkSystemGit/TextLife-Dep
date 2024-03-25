@@ -3,11 +3,31 @@
 
 <head>
     <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+    <script src="phaser-ui-tools.js"></script>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
-    <div class="game"></div>
+    <div class="game">
+        <div class="time">
+            <div class="text"></div>
+            <span class="material-symbols-outlined batt">
+                battery_horiz_075
+            </span>
+            <span class="material-symbols-outlined cell">
+                signal_cellular_3_bar
+            </span>
+        </div>
+        <div class="center" style="display: none;">
+            <p id="hr">1 AM</p>
+            <p id="rtime">5 hours remaining</p>
+        </div>
+    </div>
+    <div class="endGame fadeIn" style="display: none;">
+
+    </div>
     <script src="./game.js"></script>
 
 </body>
