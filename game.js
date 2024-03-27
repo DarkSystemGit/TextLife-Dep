@@ -263,7 +263,7 @@ function loss() {
     txt.innerHTML = '  <p>You Failed To Save Them.</p><p>You Shall Now Pay.</p>'
     txt.style.top = '40%'
     txt.style.display = 'block'
-
+    document.getElementsByClassName('restart')[0].style.display = 'block'
 }
 function winGame() {
     document.getElementsByTagName('canvas')[0].classList.add('fadeOut')
@@ -272,5 +272,6 @@ function winGame() {
     txt.innerHTML = '  <p>You Saved Them.</p><p>He Fled.</p><p>They now may live in peace, due to you.</p><p>Thank You!</p>'
     txt.style.top = '20%'
     txt.style.display = 'block'
+    document.getElementsByClassName('restart')[0].style.display = 'block'
 }
 const game = new Phaser.Game(loadScene(main));
