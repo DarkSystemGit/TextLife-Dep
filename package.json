@@ -4,7 +4,7 @@
     "description": "TextLife game",
     "main": "index.js",
     "scripts": {
-        "start": "http-server -p 4043 -c-1 ",
+        "start": "http-server -p 80 -c-1 ",
         "build": ""
     },
     "author": "darksystem",
